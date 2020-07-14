@@ -131,7 +131,7 @@ img {
   padding-bottom: 32px;
 
   color: var(--primary-text-color);
-
+  
   font-weight: 500;
   letter-spacing: 0.02em;
 
@@ -140,6 +140,7 @@ img {
 .sait-nav .link:hover,
 .sait-nav .link:focus {
   color: var(--accent-color);
+  transition: color 250ms var(--timing-function);
 }
 
 .sait-nav .link.current {
@@ -211,6 +212,8 @@ img {
 .position-item .phone {
   color: var(--text-color);
   fill: var(--text-color);
+  transition: color 250ms var(--timing-function),
+  fill 250ms var(--timing-function);
 }
 
 .position-item:hover .email,
@@ -482,6 +485,8 @@ img {
 
  .team-soc-icon:hover {
   background-color: var(--accent-color);
+  transition: background-color 250ms var(--timing-function),
+  fill 250ms var(--timing-function);
 } 
 
 .team-soc-img {
@@ -524,10 +529,12 @@ img {
 
 .lab-img {
   fill: var(--border-lab-color);
+  transition: fill 250ms var(--timing-function);
 }
 
 .lab-border:hover {
   border-color: var(--accent-color);
+  transition: border-color 250ms var(--timing-function);
 }
 
 .lab-border:hover .lab-img {
@@ -777,6 +784,8 @@ img {
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
+  transition: background-color 250ms var(--timing-function),
+  color 250ms var(--timing-function);
 }
 
 .items > .first {
