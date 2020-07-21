@@ -688,7 +688,7 @@ img {
 
 /* Уникальний контент portfolio.html */
 .product-card {
-  transition: box-shadow 500ms var(--timing-function);
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .product-card:hover {
